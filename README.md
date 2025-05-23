@@ -1,6 +1,7 @@
 # Exercise 2 – General-Purpose Neural Network Framework
 
-This project provides a reusable neural network framework implemented for Exercise 2 in the "Computational Models of Learning" course. The framework supports arbitrary input/output sizes, multiple layers, any activation function, and both scalar and vector-valued outputs.
+This project provides a reusable neural network framework implemented for Exercise 2 in the "Computational Models of Learning" course.       
+The framework supports arbitrary input/output sizes, multiple layers, any activation function, and both scalar and vector-valued outputs.
 
 ---
 
@@ -8,11 +9,11 @@ This project provides a reusable neural network framework implemented for Exerci
 
 - `neuralnet/` – General-purpose neural network framework  
   - `__init__.py`  
-  - `layer.py`  
+  - `layers.py`  
   - `network.py`  
   - `training.py`  
   - `utilities.py`  
-  - `visualizations.py`  
+  - `visualization.py`  
   - `assertions/`  
     - `__init__.py`  
     - `layer_assertion.py`  
@@ -24,6 +25,8 @@ This project provides a reusable neural network framework implemented for Exerci
 - `.gitignore`  
 - `requirements.txt`  
 - `setup.cfg`
+- `README.md`
+- `LICENSE`
 
 ---
 
