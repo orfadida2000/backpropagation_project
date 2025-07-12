@@ -7,26 +7,27 @@ The framework supports arbitrary input/output sizes, multiple layers, any activa
 
 ## Project Structure
 
-- `neuralnet/` – General-purpose neural network framework  
-  - `__init__.py`  
-  - `layers.py`  
-  - `network.py`  
-  - `training.py`  
-  - `utilities.py`  
-  - `visualization.py`  
-  - `assertions/`  
+- `backpropagation_project/`  # Project root  
+  - `neuralnet/`              # General-purpose neural network framework  
     - `__init__.py`  
-    - `layer_assertion.py`  
-    - `network_assertion.py`  
-    - `training_assertion.py`  
-- `scripts/` – Exercise-specific scripts  
-  - `part1.py`  
-  - `part2.py`  
-- `.gitignore`  
-- `requirements.txt`  
-- `setup.cfg`
-- `README.md`
-- `LICENSE`
+    - `layers.py`  
+    - `network.py`  
+    - `training.py`  
+    - `utilities.py`  
+    - `visualization.py`  
+    - `assertions/`  
+      - `__init__.py`  
+      - `layer_assertion.py`  
+      - `network_assertion.py`  
+      - `training_assertion.py`  
+  - `scripts/` – Exercise-specific scripts  
+    - `part1.py`  
+    - `part2.py`  
+  - `.gitignore`  
+  - `requirements.txt`  
+  - `setup.cfg`
+  - `README.md`
+  - `LICENSE`
 
 ---
 
