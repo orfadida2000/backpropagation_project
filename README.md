@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 ## How to Run
 
-Always run from the project root (`exc2-backpropagate/`) using module mode:
+Always run from the project root (`backpropagation_project/`) using module mode:
 
 ```bash
 python -m scripts.part1
